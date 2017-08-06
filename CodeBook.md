@@ -1,6 +1,6 @@
 # Code Book
 
-This code book summarizes the resulting data fields in `tidy.txt`.
+This code book summarizes the resulting data fields in `merged_clean_and_tidy_data.txt`.
 
 ## Identifiers
 
