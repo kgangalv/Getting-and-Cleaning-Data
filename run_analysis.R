@@ -1,4 +1,4 @@
-# The ource of data is: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+# The Source of data is: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 # 1. Merging the training and test sets for creating one data set
 
@@ -14,7 +14,7 @@ train_temp <- read.table("train/subject_train.txt")
 test_temp <- read.table("test/subject_test.txt") 
 Subject_data <- rbind(train_temp, test_temp)
 
-# Extracting measurements on the mean and standard deviation for each measurement
+# 2. Extracting measurements on the mean and standard deviation for each measurement
 
 
 features <- read.table("features.txt")
